@@ -1,5 +1,56 @@
-<section class="w-full h-14 bg-gray-400 flex items-center justify-center">
+<!-- <section class="w-full h-14 bg-gray-400 flex items-center justify-center">
     <p>این صفحه لاگین است
     </p>
+    تست
 </section>
+ -->
 
+
+ <!-- <p-button label="Primary" />
+ <p-button label="Secondary" severity="secondary" />
+ <p-button label="Success" severity="success" />
+ <p-button label="Info" severity="info" />
+ <p-button label="Warn" severity="warn" />
+ <p-button label="Help" severity="help" />
+ <p-button label="Danger" severity="danger" />
+ <p-button label="Contrast" severity="contrast" /> -->
+
+
+ <!-- <p-card header="مقدار اولیه">
+    <p class="m-0">
+       {{count()}}
+    </p>
+</p-card>
+
+
+<p-card header="مقدار آپدیت شده">
+    <p class="m-0">
+       {{doubleCount()}}
+    </p>
+</p-card>
+
+<p-button label="افزایش" severity="success" (onClick)="increase()" />
+
+<p-button label="کاهش" severity="danger" (onClick)="decrease()" /> -->
+
+
+
+
+<div class="flex justify-center items-center h-screen flex-col">
+    <p-inputgroup class="w-max">
+        <!-- <p-inputgroup-addon>
+            <i class="pi pi-user"></i>
+        </p-inputgroup-addon> -->
+        <input pInputText [(ngModel)]="username"  placeholder="نام کاربری" />
+    </p-inputgroup>
+    
+    <p-inputgroup class="w-max">
+        <!-- <p-inputgroup-addon>www</p-inputgroup-addon> -->
+        <input pInputText [(ngModel)]="password" placeholder="کلمه عبور" />
+    </p-inputgroup>
+    
+    <p-button label="ورود" severity="success" (onClick)="login()" />
+
+</div>
+
+<p-toast />
