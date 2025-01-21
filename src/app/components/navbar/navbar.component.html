@@ -1,0 +1,13 @@
+<nav class="bg-gray-800 p-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <div class="text-white text-lg">
+        پنل!
+      </div>
+      <div class="flex items-center space-x-4">
+        <span class="text-white">{{userData.firstName}} {{userData.lastName}}</span>
+        <img [src]="userData.image" alt="Profile Picture" class="w-10 h-10 rounded-full">
+        <span class="text-gray-400">{{userData.username}}</span>
+      </div>
+    </div>
+  </nav>
+  
